@@ -691,10 +691,7 @@ margin-bottom: 72px;
     border: 1px solid var(--border-btn-color);
 }
 
-
-
-
- .portfolio-card-link{
+.portfolio-card-link{
     display: block;
     border: 1px solid var(--border-secondary-color);
      
