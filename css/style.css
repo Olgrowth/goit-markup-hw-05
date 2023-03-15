@@ -163,18 +163,18 @@ img{
 
 .header-navigation {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px; 
+     
 }
 
 .header-logo {
 
-   color: var(--accent-color);
-
-   margin-right: 76px;
+    color: var(--accent-color);
+    margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-small-logo{
-color: var(--logo-color);
+    color: var(--logo-color);
 }
 .header-list {
   font-size: 16px;
@@ -191,17 +191,15 @@ color: var(--logo-color);
     gap: 40px;
 }
 
-.header-item:last-child {
-  
-}
 .header-link{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--link-color);
-
 position: relative;
 transition: color var(--transition-duration) var(--transition-function);
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .header-link.active {
@@ -222,7 +220,7 @@ transition: color var(--transition-duration) var(--transition-function);
     border-radius: 2px;
     position: absolute;
     left: 0;
-    bottom: -24px;
+    bottom: -1px;
 
 }
 
